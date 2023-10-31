@@ -41,7 +41,7 @@
 
 - We performed 4 attempts to increase the performance of the model's performance. However, we were unable to achieve target accuracy of 75%.
 - This was achieved by changing the neuron counts in hidden layers, changing number of hidden layers, changing activation function, increaseing epochs.
-- However, we were able to achieve maximum accuracy of <<percent>>%
+- However, we were able to achieve maximum accuracy of 73.89%
 
 #### Results
 
@@ -122,6 +122,6 @@
 
 ### Summary
 
-- After making the above attempts, we were able to achieve maximum accuracy of <<<X>>>%. However, sadly, we were unable to get an accuracy of 75%.
+- After making the above attempts, we were able to achieve maximum accuracy of 73.89%. However, sadly, we were unable to get an accuracy of 75%.
 - Also, during the above attempts we used default values for optimzers like learning rate. May be we could try changing the learning rate to achieve better accuracy.
 - It would be recommended to try other machine learning classification models for this analysis to increase accuracy. We can possibly try Random Forest classifier which uses averaging to improve accuracy as well as control over-fitting.
