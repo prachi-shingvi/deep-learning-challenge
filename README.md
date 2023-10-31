@@ -26,17 +26,17 @@
 - Binning (for columns more than 10 unique values)
   - APPLICATION_TYPE: 17 unique values (Value counts below 500 merged as Others)
   - CLASSIFICATION: 71 unique values (Value counts below 300 merged as Others)
-  - <img src='./Images/unique_values.png'/>
-  -<img src='./Images/applicationtype.png'/>
-  -<img src='./Images/classification.png'/>
+  <img src='./Deep_Learning_Challenge/Images/unique_values.png'/>
+  <img src='./Deep_Learning_Challenge/Images/applicationtype.png'/>
+  <img src='./Deep_Learning_Challenge/Images/classification.png'/>
 - Categorial data to numeric data
   - Performed `pd.get_dummies()` to convert to numeric data
-  - <img src='./Images/getdummies.png'/>
+    <img src='./Deep_Learning_Challenge/Images/getdummies.png'/>
 - Split dataset
   - We splitted the dataframe into 2 sets: features set(`X`) and target set(`y`)
   - We splitted the dataset to training and test data set using train_test_split.
   - Additionally, we scaled the same using StandardScaler 
-  -<img src='./Images/splitdata.png'/>
+  <img src='./Deep_Learning_Challenge/Images/splitdata.png'/>
 ### Compiling, Training, and Evaluating the Model
 
 - We performed 4 attempts to increase the performance of the model's performance. However, we were unable to achieve target accuracy of 75%.
