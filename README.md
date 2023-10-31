@@ -46,73 +46,79 @@
 #### Results
 
 - Model 1
-  - Accuracy:   Loss:
-   <<< Image >>>
-  - Model structure <<< Image >>>
+  - Accuracy:73.73%  Loss: 0.5510
+    <img src='./Deep_Learning_Challenge/Images/Model1_accuracy.png'/>
+  - Model structure  <img src='./Deep_Learning_Challenge/Images/Model1_structure.png'/>
     - Layers:
       - Layer 1:
-        - Number of neurons:
-        - Activation function:
+        - Number of neurons: 80
+        - Activation function: relu
       - Layer 2:
-        - Number of neurons:
-        - Activation function:
+        - Number of neurons: 80
+        - Activation function: relu
       - Output Layer
-        - Activation function:
-    - Epochs:
-    - Loss:
-    - Optimzer:
+        - Activation function: sigmoid
+    - Epochs: 100 
+    - Optimzer: adam
 
 - Model 2
-  - Accuracy:   Loss:
-   <<< Image >>>
-  - Model structure <<< Image >>>
+  - Accuracy: 73.89%   Loss: 0.5689
+    <img src='./Deep_Learning_Challenge/Images/Model2_accuracy.png'/>
+  - Model structure  <img src='./Deep_Learning_Challenge/Images/Model2_structure.png'/>
     - Layers:
       - Layer 1:
-        - Number of neurons:
-        - Activation function:
+        - Number of neurons: 100
+        - Activation function: relu
       - Layer 2:
-        - Number of neurons:
-        - Activation function:
+        - Number of neurons: 90
+        - Activation function: relu
+      - Layer 3:
+        - Number of neurons: 80
+        - Activation function: relu     
       - Output Layer
-        - Activation function:
-    - Epochs:
-    - Loss:
-    - Optimzer:
+        - Activation function: sigmoid
+    - Epochs: 100
+ 
+    - Optimzer: adam
 
 - Model 3
-  - Accuracy:   Loss:
-   <<< Image >>>
-  - Model structure <<< Image >>>
+  - Accuracy: 73.61%  Loss: 0.5611
+    <img src='./Deep_Learning_Challenge/Images/Model3_accuracy.png'/>
+  - Model structure  <img src='./Deep_Learning_Challenge/Images/Model3_structure.png'/>
     - Layers:
       - Layer 1:
-        - Number of neurons:
-        - Activation function:
+        - Number of neurons: 100
+        - Activation function: relu
       - Layer 2:
-        - Number of neurons:
-        - Activation function:
+        - Number of neurons: 100
+        - Activation function: relu
+      - Layer 3:
+        - Number of neurons: 80
+        - Activation function: sigmoid
       - Output Layer
-        - Activation function:
-    - Epochs:
-    - Loss:
-    - Optimzer:
+        - Activation function: sigmoid
+    - Epochs: 100
+    - Optimzer: adam
    
 
 - Model 4
-  - Accuracy:   Loss:
-   <<< Image >>>
-  - Model structure <<< Image >>>
+  - Accuracy: 73.71%   Loss: 0.5675
+    <img src='./Deep_Learning_Challenge/Images/Model4_accuracy.png'/>
+  - Model structure  <img src='./Deep_Learning_Challenge/Images/Model4_structure.png'/>
     - Layers:
       - Layer 1:
-        - Number of neurons:
-        - Activation function:
+        - Number of neurons: 100
+        - Activation function: relu
       - Layer 2:
-        - Number of neurons:
-        - Activation function:
+        - Number of neurons: 80
+        - Activation function: relu
+       - Layer 3:
+        - Number of neurons: 30
+        - Activation function: relu
       - Output Layer
-        - Activation function:
-    - Epochs:
-    - Loss:
-    - Optimzer:
+        - Activation function: sigmoid
+    - Epochs: 150
+    - Optimzer: adam
 
 ### Summary
 
