@@ -26,18 +26,20 @@
 - Binning (for columns more than 10 unique values)
   - APPLICATION_TYPE: 17 unique values (Value counts below 500 merged as Others)
   - CLASSIFICATION: 71 unique values (Value counts below 300 merged as Others)
-  - <<< Add image >>>
+  - <img src='./Images/unique_values.png'/>
+  -<img src='./Images/applicationtype.png'/>
+  -<img src='./Images/classification.png'/>
 - Categorial data to numeric data
   - Performed `pd.get_dummies()` to convert to numeric data
-  - <<< Add image>>>
+  - <img src='./Images/getdummies.png'/>
 - Split dataset
   - We splitted the dataframe into 2 sets: features set(`X`) and target set(`y`)
   - We splitted the dataset to training and test data set using train_test_split.
   - Additionally, we scaled the same using StandardScaler 
-
+  -<img src='./Images/splitdata.png'/>
 ### Compiling, Training, and Evaluating the Model
 
-- We performed <<<X>>> attempts to increase the performance of the model's performance. However, we were unable to achieve target accuracy of 75%.
+- We performed 4 attempts to increase the performance of the model's performance. However, we were unable to achieve target accuracy of 75%.
 - This was achieved by changing the neuron counts in hidden layers, changing number of hidden layers, changing activation function, increaseing epochs.
 - However, we were able to achieve maximum accuracy of <<percent>>%
 
