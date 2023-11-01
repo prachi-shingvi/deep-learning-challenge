@@ -125,3 +125,10 @@
 - After making the above attempts, we were able to achieve maximum accuracy of 73.89%. However, sadly, we were unable to get an accuracy of 75%.
 - Also, during the above attempts we used default values for optimzers like learning rate. May be we could try changing the learning rate to achieve better accuracy.
 - It would be recommended to try other machine learning classification models for this analysis to increase accuracy. We can possibly try Random Forest classifier which uses averaging to improve accuracy as well as control over-fitting.
+
+## Repo structure
+- Deep_Learning_Challenge:
+  - Starter_Code.ipynb : File containing initial model code
+  - Images: Folder containing screenshots of results and model structure
+  - Models: Folder containing individual model codes in Jupyter notebook.
+- AlphabetSoupCharity.h5 : Saved Neural Network model for Starter_Code model.
