@@ -41,7 +41,7 @@
 
 - We performed 4 attempts to increase the performance of the model's performance. However, we were unable to achieve target accuracy of 75%.
 - This was achieved by changing the neuron counts in hidden layers, changing number of hidden layers, changing activation function, increaseing epochs.
-- However, we were able to achieve maximum accuracy of 73.89%
+- However, we were able to achieve maximum accuracy of 73.83%
 
 #### Results
 
@@ -62,7 +62,7 @@
     - Optimzer: adam
 
 - Model 2
-  - Accuracy: 73.89%   Loss: 0.5689
+  - Accuracy: 73.83%   Loss: 0.5736
     <img src='./Deep_Learning_Challenge/Images/Model2_accuracy.png'/>
   - Model structure  <img src='./Deep_Learning_Challenge/Images/Model2_structure.png'/>
     - Layers:
@@ -122,7 +122,7 @@
 
 ### Summary
 
-- After making the above attempts, we were able to achieve maximum accuracy of 73.89%. However, sadly, we were unable to get an accuracy of 75%.
+- After making the above attempts, we were able to achieve maximum accuracy of 73.83%. However, sadly, we were unable to get an accuracy of 75%.
 - Also, during the above attempts we used default values for optimzers like learning rate. May be we could try changing the learning rate to achieve better accuracy.
 - It would be recommended to try other machine learning classification models for this analysis to increase accuracy. We can possibly try Random Forest classifier which uses averaging to improve accuracy as well as control over-fitting.
 
@@ -131,4 +131,5 @@
   - Starter_Code.ipynb : File containing initial model code
   - Images: Folder containing screenshots of results and model structure
   - Models: Folder containing individual model codes in Jupyter notebook.
+      - AlphabetSoupCharity_Optimization.h5 : Most Optimized Neural Network Model.
 - AlphabetSoupCharity.h5 : Saved Neural Network model for Starter_Code model.
